@@ -48,6 +48,8 @@ group :development do
   gem 'guard-rails', require: false
   gem 'guard-rspec', require: false
   gem 'rack-livereload'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development, :test do
